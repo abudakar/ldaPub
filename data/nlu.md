@@ -57,7 +57,6 @@
 - لا
 - مستحيل
 
-
 ## intent:mood_great
 - perfect
 - very good
@@ -73,7 +72,6 @@
 - كويس
 - الحمدلله
 - بخير
-
 
 ## intent:mood_unhappy
 - sad
@@ -107,76 +105,73 @@
 - انا اكلم مين ؟
 - انت ادمي ولا الة ؟
 
-
 ## intent:salary
-- what is my salary 
-- my salary 
-- how much do i take ? 
-- how much i'm paid ? 
-- what is my annual salary ? 
-- can i know my salary ? 
+- what is my salary
+- my salary
+- how much do i take ?
+- how much i'm paid ?
+- what is my annual salary ?
+- can i know my salary ?
 - salary
-
+- show me my salary please
 
 ## intent:paySlip
 - what is my payslip ?
 - my payslip at the end of FEB
 - what is my payslip at 30/7/2020
-- my payslip ? 
-- can you show me my payslip ? 
-- give me my salary details 
-- what are my salaries 
-- can i see my salaries details ? 
+- my payslip ?
+- can you show me my payslip ?
+- give me my salary details
+- what are my salaries
+- can i see my salaries details ?
 - payslip
 
 ## intent:absences_balance
 - my absences balance
 - my vacation balance
-- my leaves balance 
-- how many remaining leaves do i have ? 
-- how many vacations do i have ? 
-- how many leave did i take ? 
-- can i know my absences balance ? 
+- my leaves balance
+- how many remaining leaves do i have ?
+- how many vacations do i have ?
+- how many leave did i take ?
+- can i know my absences balance ?
 - absences balance
 
 ## intent:employee_information
-- what is my phone number ? 
-- what is my email ? 
-- what is my name ? 
-- what information do you have about me ? 
-- what do you know about me ? 
+- what is my phone number ?
+- what is my email ?
+- what is my name ?
+- what information do you have about me ?
+- what do you know about me ?
 - my information
 - my details
 - what are my personal information
 - personal information
 
-
 ## intent:bankAcc_information
-- what is my bank account ? 
-- can i know which bank i use ? 
-- bank details 
+- what is my bank account ?
+- can i know which bank i use ?
+- bank details
 - my bank details
-- what is my bank ? 
-- bank 
+- what is my bank ?
+- bank
 
 ## intent:employees_attendance_for_Manager
-- employees otl 
-- show me my employees attendance times 
-- when did my employee come ? 
+- employees otl
+- show me my employees attendance times
+- when did my employee come ?
 - attendance times
-- attendance 
+- attendance
 - otl records
 - otl
 
 ## intent:notification_for_manager
 - show me my notifications
 - my notifications
-- do i have something to approve ? 
-- do i have something to reject ? 
-- do i have any notifications ? 
-- is there any pending actions from me ? 
+- do i have something to approve ?
+- do i have something to reject ?
+- do i have any notifications ?
+- is there any pending actions from me ?
 - notifications
-
 
 ## intent:salary_ar
 - ابغى الراتب
@@ -184,9 +179,7 @@
 - كم راتبي
 - راتبي الشهري
 - راتبي السنوي
-- الراتب 
-
- 
+- الراتب
 
 ## intent:employee_information_ar
 - معلوماتي
@@ -196,19 +189,15 @@
 - شنو المعلومات الخاصة بي
 - ما هي المعلومات الخاصة بي
 
- 
-
 ## intent:bankAcc_information_ar
 - معلومات البنك
 - معلومات البنك الخاصة بي
 - ابغى معلومات البنك
-- شو معلومات البنك 
-- ما هي معلومات البنك 
+- شو معلومات البنك
+- ما هي معلومات البنك
 - ما هي معلومات البنك الخاصة بي
 - وش هو بنكي
-- ايش بنكي 
-
- 
+- ايش بنكي
 
 ## intent:absences_balance_ar
 - رصيد اجازاتي
@@ -217,8 +206,6 @@
 - شو رصيد اجازاتي
 - ابغى رصيد اجازاتي
 - رصيد الاجازات
-
- 
 
 ## intent:paySlip_ar
 - مسير الراتب
@@ -235,67 +222,52 @@
 - ابغى مفردات الراتب
 - كشف الراتب
 
- 
-
 ## intent:employees_attendance_for_Manager_ar
-- اوقات الدوام 
+- اوقات الدوام
 - اوقات دوام الموظفين
 - ما هي اوقات دوام الموظفين
--  ابغى اوقام الدوام حق الموظفين 
+- ابغى اوقام الدوام حق الموظفين
 - متى يداومون موظفيني
 - ورني متى جاو الموظفين
 - عطني اوقات الدوام
-
- 
 
 ## intent:notification_for_manager_ar
 - اشعاراتي
 - ما هي اشعاراتي
 - ابغى الاشعارات
 - الاشعارات
-- الاشعارات الخاصة بي 
-- شنو اخر اشعارات  
-
+- الاشعارات الخاصة بي
+- شنو اخر اشعارات
 
 ## intent:help_en
-- help me 
-- help 
-- what can i ask you  ? 
-- which services do you have ? 
+- help me
+- help
+- what can i ask you  ?
+- which services do you have ?
 - help please
-
 
 ## intent:help_ar
 - ساعدني
-- المساعده 
+- المساعده
 - المساعدة
-- كيف تقدر تساعدني ؟ 
+- كيف تقدر تساعدني ؟
 - ارجو المساعده
 - مساعده
 - مساعدة
 
 ## intent:expense_en
 - expense claim
-- i want to claim my expense 
-- i've bought a new mouse for my laptop and i want my money back 
-- i want my money back 
-- how can i claim my expense ? 
+- i want to claim my expense
+- i've bought a new mouse for my laptop and i want my money back
+- i want my money back
+- how can i claim my expense ?
 - i want to be paid for an expense
 
 ## intent:expense_ar
 - بدي اقدم على اكسبنس
-- ابغى فلوسي 
-- غيرت قطع لابتوبي 
+- ابغى فلوسي
+- غيرت قطع لابتوبي
 - ممي فاتورة ابغى اقدمها للشركة
-- كيف اقدر اطالب بفلوس 
-- كيف اطالب الشركة بقيمة فاتورة 
+- كيف اقدر اطالب بفلوس
+- كيف اطالب الشركة بقيمة فاتورة
 - مطالبة بالنفقات
-
-
-
-
-
-
-
-
-
