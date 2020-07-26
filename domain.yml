@@ -1,0 +1,189 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- greet_ar
+- goodbye_ar
+- affirm_ar
+- deny_ar
+- mood_great_ar
+- mood_unhappy_ar
+- bot_challenge_ar
+- salary
+- paySlip
+- absences_balance
+- employee_information
+- bankAcc_information
+- employees_attendance_for_Manager
+- notification_for_manager
+- salary_ar
+- paySlip_ar
+- absences_balance_ar
+- employee_information_ar
+- bankAcc_information_ar
+- employees_attendance_for_Manager_ar
+- notification_for_manager_ar
+- out_of_scope
+- help_en
+- help_ar
+- expense_en
+- expense_ar
+responses:
+  utter_greet:
+  -  image: https://www.nab3.info/images/companies_logo/59a3e3376d344.png
+     text: "Hi Yousef!,  i'm AppsPro Assistant and i'm here to help you " 
+    
+
+  utter_greet_Questions_en:
+  - text: " here's a list of our services" 
+    buttons:
+      - title: Salary
+        payload: salary
+      - title: Payslip
+        payload: payslip
+      - title: Absences Balance
+        payload: absences balance
+      - title: Personal Information
+        payload: personal information
+      - title: notifications
+        payload: notifications
+      - title: Employees Attendance
+        payload: otl
+      - title: Bank Information
+        payload: bank
+      - title: Expense Claim
+        payload: expense claim
+
+  utter_greet_Questions_ar:
+  - text: " يمكنني مساعدتك بالاتي : " 
+    buttons:
+      - title: الراتب
+        payload: الراتب
+      - title: قسيمة الراتب
+        payload: قسيمة الراتب
+      - title: رصيد الاجازات
+        payload: رصيد الاجازات
+      - title: معلوماتك الخاصة
+        payload: معلوماتي
+      - title: الاشعارات
+        payload: الاشعارات
+      - title: اوقات حضور الموظفين
+        payload: اوقات الدوام
+      - title: معلومات البنك
+        payload: معلومات البنك
+      - title: مطالبة بالنفقات
+        payload: مطالبة بالنفقات
+
+    
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_greet_ar:
+  - text: يا هلا
+  utter_cheer_up_ar:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: تفضل هاي الصورة يمكن تساعدك تعدل مزاجك
+  utter_did_that_help_ar:
+  - text: هل ساعدك ذلك ؟
+  utter_happy_ar:
+  - text: 'دوم ان شاء الله '
+  utter_goodbye_ar:
+  - text: مع السلامة
+  utter_salary_en:
+  - text: "- Monthly salary is : 3000 SR \n - Annual Salary is : 36000 SR"
+  # utter_paySlip_en:
+  # - text: "Name: Payment_NAME  \n  Classification:  classification \n Value: Value\
+  #     \ \n ------------------- \n Name: Payment_NAME  \n  Classification:  classification\
+  #     \ \n Value: Value"
+  utter_absences_balance_en:
+  - text: "- Remaining Balance : 12 Days \n - Used Balance: 2 Days \n - Total Balance: 14 Days \n \n to view your absences balance as a chart kindly click on the link below"
+  utter_employee_information_en:
+  - text: "- Name is : Yousef Abudakar \n - Mobile No.: +966 563198972 \n - Email is : user@AppsPro.com"
+  utter_bankAcc_information_en:
+  - text: "- Bank : Alrajhi Bank \n - IBAN: SA4xxxxxxxxxxxxxxx"
+  utter_employees_attendance_for_Manager_en:
+  - text: "- Employee Name: Yousef Abudakar \n Attendance Time: 8:30 Am \n Leaving Time: 5:00 Pm \n \n - Employee Name: Amro Alfaris \n Attendance Time: 8:50 Am \n Leaving Time: 5:10 Pm \n \n - Employee Name: Mohammed Awamleh \n Attendance Time: 9:00 Am \n Leaving Time: 6:00 Pm  "
+  utter_notification_for_manager_en:
+  - text: "you have the following notifications : \n \n - Sub: Absence Request     \n From: Amro Alfaris \n \n - Sub: Business Trip Payment \n From: Mohammed Awamleh  "
+  utter_expense_en:
+  - text: please attach your expense by using the attach icon below
+  utter_salary_ar:
+  - text: " - راتبك الشهري هو:  3000 ريال سعودي \n - راتبك السنوي هو:  36000 ريال سعودي"
+  # utter_paySlip_ar:
+  # - text: "الاسم: اسم الدفعة \n التصنيف: التصنيف:\n القيمة: 500 ريال\n -------------------\
+  #     \ \n الاسم: اسم الدفعة \n التصنيف: التصنيف:\n القيمة: 500 ريال\n-------------------\
+  #     \ \n الاسم: اسم الدفعة \n التصنيف:التصنيف:\n القيمة: 500 ريال\n "
+  utter_absences_balance_ar:
+  - text: "- الرصيد الكلي: 14 يوم \n - الرصيد المستخدم: 2 يوم \n - الرصيد المتبقي: 12 يوم \n \n لاظهار رصيد الاجازات في صورة الرجاء الضغط على الرابط بالاسفل"
+
+  utter_absences_balance_img:
+  - text: "Absences Balance"
+    image: https://gisinter.online/wp-rasa-awamleh/wp-content/uploads/2020/07/absence-balance-1024x515.png
+    
+
+  utter_absences_balance_img_ar:
+  - text: "رصيد الاجازات"
+    image: https://gisinter.online/wp-rasa-awamleh/wp-content/uploads/2020/07/absence-balance-1024x515.png
+    
+
+  utter_employee_information_ar:
+  - text: "  - اسمك: يوسف احمد  \n - رقم جوالك: +966 563198972  \n - بريدك الالكتروني: user@AppsPro.com"
+  utter_bankAcc_information_ar:
+  - text: "هذه هي تفاصيل البنك الخاص بك:  \n \n  - البنك: بنك الراجحي.\n   - رقم الحساب المصرفي  IBAN: SAxxxxxxxxxxxxxxxx"
+  utter_employees_attendance_for_Manager_ar:
+  - text: " - اسم الموظف: يوسف احمد  \n وقت الحضور: 8:30 AM  \n وقت المغادرة : 2:30 pm \n \n - اسم الموظف: عمرو الفارس  \n وقت الحضور: 8:35 AM  \n وقت المغادرة : 2:40 pm  \n \n - اسم الموظف: محمد العواملة  \n وقت الحضور: 8:35 AM  \n وقت المغادرة : 2:40 pm  "
+  utter_notification_for_manager_ar:
+  - text: ":لديك الاشعارات التالية \n \n - الموضوع : طلب اجازة              \n الموظف : عمرو الفارس \n \n - الموضوع : رحلة عمل مدفوعة          \n الموظف : محمد العواملة "
+  utter_expense_ar:
+  - text: الرجاء ارفاق الفاتورة من خلال الضغظ على زر الارفاق بالاسفل
+actions:
+- utter_expense_en
+- utter_expense_ar  
+- utter_salary_ar
+# - utter_paySlip_ar
+- utter_absences_balance_ar
+- utter_employee_information_ar
+- utter_bankAcc_information_ar
+- utter_employees_attendance_for_Manager_ar
+- utter_notification_for_manager_ar
+- utter_salary_en
+# - utter_paySlip_en
+- utter_absences_balance_en
+- utter_employee_information_en
+- utter_bankAcc_information_en
+- utter_employees_attendance_for_Manager_en
+- utter_notification_for_manager_en
+- action_default_fallback
+- action_pdf
+- action_img
+- action_img_ar
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_greet_ar
+- utter_cheer_up_ar
+- utter_did_that_help_ar
+- utter_happy_ar
+- utter_goodbye_ar
+- utter_greet_Questions_en
+- utter_greet_Questions_ar
+- utter_absences_balance_img
+- utter_absences_balance_img_ar
